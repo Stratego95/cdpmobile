@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cdpmobile-dev-184808-authRole",
+      "UnauthRoleArn": "arn:aws:iam::010953502301:role/amplify-cdpmobile-dev-184808-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::010953502301:role/amplify-cdpmobile-dev-184808-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-cdpmobile-dev-184808-deployment",
+      "UnauthRoleName": "amplify-cdpmobile-dev-184808-unauthRole",
+      "StackName": "amplify-cdpmobile-dev-184808",
+      "StackId": "arn:aws:cloudformation:eu-central-1:010953502301:stack/amplify-cdpmobile-dev-184808/5aeb3450-a778-11eb-81bc-0a1a8241524e",
+      "AmplifyAppId": "dbetst2kd5to0"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+type GymnasticElement @model {
+  id: ID!
+  identifier: String!
+  description: String
+  group: Int
+  difficulty: String
+  apparatus: String
+}
+
+type Trainer @model {
+  id: ID!
+  name: String!
+  gymnasts: [Gymnast] @connection(name: "TrainersGymnasts")
+}
+
+type Gymnast @model {
+  id: ID!
+  name: String!
+  trainer: Trainer @connection(name: "TrainersGymnasts")
+  apparatus: [Apparatus] @connection(name: "GymnastsApparatus")
+}
+
+type Apparatus @model {
+  id: ID!
+  name: String!
+  gymnast: Gymnast @connection(name: "GymnastsApparatus")
+  elements: [String]
+}
